@@ -10,6 +10,14 @@ var isPalindrome = function (s) {
   console.log(word)
   if (reverseWord !== word) return false
   return true
+
+  // Another Solution
+  // for (let i = 0; i < s.length; i++) {
+  //   console.log(`${s[i]} compare with ${s[s.length - 1 - i]}`);
+  //   if (s[i] !== s[s.length - 1 - i]) return false
+  // }
+  // return true
 };
 
-isPalindrome("A man, a plan, a canal: Panama")
+console.log(isPalindrome("kasur rusak"));
+// isPalindrome("A man, a plan, a canal: Panama")
