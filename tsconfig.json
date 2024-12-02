@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES6",
+        "outDir": "./dist",
+        "rootDir": "./2024",
+        "strict": true,
+        "esModuleInterop": true,
+    },
+    "include": ["2024/**/*"]
+}
